@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    
+    box-sizing: border-box;
+     
+}
+
+.container{
+    height: 25px;
+    background:#6a6a6a ;
+    position: relative;
+    border-radius: 5px;
+    margin: 5 0px  auto;
+    
+}
+.container .progress_bar{
+    position: absolute;
+    height: 100%;
+    background-color: rgb(56, 49, 243);
+    animation: progress_animation 5s forwards;
+}
+
+@keyframes progress_animation {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+    
+}
